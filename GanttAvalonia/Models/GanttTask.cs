@@ -12,9 +12,9 @@ namespace GanttAvalonia.Models
             EndDate = endDate;
         }
 
-        public string Name { init; get; }
-        public string Description { init; get; }
-        public DateTime StartDate { init; get; }
-        public DateTime EndDate { init; get; }
+        public string Name { set; get; }
+        public string Description { set; get; }
+        public DateTime StartDate { set; get; }
+        public DateTime EndDate { set; get; }
     }
 }

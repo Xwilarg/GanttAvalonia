@@ -14,7 +14,7 @@
 
 	<Grid>
 		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="300"></ColumnDefinition>
+			<ColumnDefinition Width="800"></ColumnDefinition>
 			<ColumnDefinition Width="*"></ColumnDefinition>
 		</Grid.ColumnDefinitions>
 
@@ -22,7 +22,7 @@
 				  ItemsSource="{Binding Tasks}"
                   AutoGenerateColumns="True"
 				  IsReadOnly="True"
-                  GridLinesVisibility="All"
+				  CanUserSortColumns="False"
                   BorderThickness="1"
 				  BorderBrush="Gray">
 		</DataGrid>
